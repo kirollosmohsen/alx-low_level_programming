@@ -1,11 +1,11 @@
-#include <unistd.h>
+#include<unistd.h>
 
 /**
  * main - Entry point
  *
  * Description: print without printf
  *
- * Return: 1 (not success)
+ * Return: 1 (error).
 */
 
 int main(void)
