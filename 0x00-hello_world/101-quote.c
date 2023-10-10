@@ -1,7 +1,7 @@
 #include<unistd.h>
 
 /**
- *  main - Entry point 
+ *  main - Entry point
  *
  * Description: print without using printf or puts
  *
@@ -14,5 +14,5 @@ int main(void)
 
 	write(1, quo, 59);
 	return (1);
-}	
+}
 
