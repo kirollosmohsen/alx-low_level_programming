@@ -17,7 +17,7 @@ for (mult = 1; mult <= n; ++mult)
 {
 _putchar(',');
 _putchar(' ');
-prod = num mult;
+prod = num * mult;
 if (prod <= 9)
 _putchar(' ');
 if (prod <= 99)
@@ -32,5 +32,6 @@ _putchar((prod / 10) + 48);
 _putchar ((prod % 10) + 48);
 }
 _putchar('\n');
+}
 }
 }
