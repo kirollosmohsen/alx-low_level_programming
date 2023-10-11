@@ -1,6 +1,6 @@
+#include <sdtio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <sdtio.h>
 /**
 *main - enrty point
 *
