@@ -37,7 +37,7 @@ digit3++;
 }
 digit2++;
 }
-digit++;
+digit1++;
 }
 putchar('\n');
 return (0);
