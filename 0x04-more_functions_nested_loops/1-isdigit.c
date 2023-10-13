@@ -1,10 +1,10 @@
 #include "main.h"
 /**
 *_isupper - check if input is degit between 0 - 9
-*@c: input for alphabet
+*@c: input
 *Return: 1 if its uppercase, 0 if not
 */
-int _isupper(int c)
+int _isdegit(int c)
 {
 if (c >= 48 && c <= 57)
 return (1);
