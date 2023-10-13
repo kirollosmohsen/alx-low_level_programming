@@ -19,6 +19,6 @@ num = count % 10;
 }
 _putchar(num + 48);
 }
-putchar('\n');
+_putchar('\n');
 }
 }
