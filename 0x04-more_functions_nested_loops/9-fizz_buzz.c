@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print_square - Prints n squares according n number of times
-*@size: The number of squares/number of times
-*Return: empty
+ * print_square - Prints n squares according n number of times
+ * @size: The number of squares/number of times
+ * Return: empty
 */
 void print_square(int size)
 {
