@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_stropy - copies the string pointed to by sro
+*_strcpy - copies the string pointed to by sro
 *@dest: char type string
-*@Baret char type string
+*@src: char type string
 *Description: Copy the string pointed to by pointer BEC'
 *the buffer pointed to by "dest"
 *Return: Pointer to "dest"
