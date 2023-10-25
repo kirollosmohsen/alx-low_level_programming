@@ -23,7 +23,7 @@ return (p);
 }
 jtr++;
 }
-itr++
+itr++;
 }
 return (0);
 }
