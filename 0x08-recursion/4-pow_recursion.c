@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - Search a string for any of a set of bytes.
+* _pow_recursion - Search a string for any of a set of bytes.
 *@x: base
 *@y: exposant
 *Return: Pointer to the byte in 's' that matches one of
@@ -14,5 +14,5 @@ else if (y == 1)
 return (x);
 else if (y == 0)
 return (1);
-return (x * _pow_recursion(x, y 1));
+return (x * _pow_recursion(x, y - 1));
 }
