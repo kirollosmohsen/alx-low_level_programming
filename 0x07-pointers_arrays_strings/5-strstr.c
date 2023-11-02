@@ -1,21 +1,27 @@
 #include "main.h"
 /**
-*_strpbrk - Entry point
-*@s: input
-*@accept: input
+*_strstr - Entry point
+*@haystack: input
+*@needle: input
 *Return: Always (Success)
 */
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-int k;
-while (*s)
+int index;
+if (*needle == 0)
+return (haystack);
+while (*haystack)
 {
-for (k = 0; accept[k]; k++)
+index = 0;
+if (haystack[index] == needle[index])
 {
-if (*s == accept[k])
-	return (s);
+do {
+if (needle[index + 1] == '\0')
+return (haystack);
+index++;
+} while (haystack[index] == needle[index]);
 }
-s++;
+haystack++;
 }
 return ('\0');
 }
