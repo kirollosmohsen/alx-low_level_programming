@@ -10,7 +10,6 @@ int main(void)
 {
 long int x;
 srand(time(0));
-x = rand() - RAND_MAX / 2;
 scanf("%ld", &x);
 if (x > 0)
 {
