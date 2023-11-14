@@ -10,7 +10,7 @@ int main(void)
 {
 long int x;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+x = rand() - RAND_MAX / 2;
 if (x > 0)
 {
 printf("%ld is positive", x);
