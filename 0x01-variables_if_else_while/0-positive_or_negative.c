@@ -1,22 +1,22 @@
 /**
- * main - entry point 
- * 
- * @x: value that entered
- * 
- * Return: 0 
+ * main - entry point
+ *
+ * Return: 0
 */
 #include<stdio.h>
 int main(void)
 {
-int x;
+long int x;
 scanf("%d", &x);
-if (x > 0){
+if (x > 0)
+{
 printf("%d is positive", x);
 }
-else if(x < 0){
+else if (x < 0)
+{
 printf("%d is negative", x);
 }
-else 
+else
 printf("%d is zero", x);
 return (0);
 }
