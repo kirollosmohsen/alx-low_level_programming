@@ -7,16 +7,16 @@
 int main(void)
 {
 long int x;
-scanf("%d", &x);
+scanf("%ld", &x);
 if (x > 0)
 {
-printf("%d is positive", x);
+printf("%ld is positive", x);
 }
 else if (x < 0)
 {
-printf("%d is negative", x);
+printf("%ld is negative", x);
 }
 else
-printf("%d is zero", x);
+printf("%ld is zero", x);
 return (0);
 }
