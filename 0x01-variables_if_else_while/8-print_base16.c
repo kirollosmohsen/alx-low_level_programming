@@ -13,8 +13,8 @@ while (i < 10)
 putchar(i + '0');
 i++;
 }
-char x = 'a';
-while (x <= 'f')
+int x = 97;
+while (x >= 97 && x <= 102)
 {
 putchar(x);
 x++;
