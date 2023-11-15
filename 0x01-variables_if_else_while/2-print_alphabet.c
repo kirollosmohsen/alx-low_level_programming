@@ -6,12 +6,10 @@
 */
 int main(void)
 {
-char x;
-if (x >= 65 && x <= 90)
+for (char i = 97; i <= 122; i++)
 {
-x += 32;
-}
-putchar(x);
+putchar(i);
 printf("\n");
+}
 return (0);
 }
