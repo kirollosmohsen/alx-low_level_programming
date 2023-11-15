@@ -6,8 +6,7 @@
 */
 int main(void)
 {
-char x = 'Z';
-printf("%d", x);
+char x;
 if (x >= 65 && x <= 90)
 {
 x += 32;
