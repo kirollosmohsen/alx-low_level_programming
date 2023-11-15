@@ -1,18 +1,19 @@
-#include<stdio.h>
-void kiro(void);
+#include<unistd.h>
+#include"main.h"
 /**
  * main - entry point
  *
- * kiro - print
- *
  * Return: equal zero
 */
-void kiro(void)
-{
-printf("_putchar\n");
-}
 int main(void)
 {
 kiro();
 return (0);
+}
+/**
+ * kiro - Prints "_putchar" to the standard output
+ */
+void kiro(void)
+{
+printf("_putchar\n");
 }
