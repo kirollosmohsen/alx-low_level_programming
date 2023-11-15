@@ -12,5 +12,6 @@ if (x >= 65 && x <= 90)
 x += 32;
 }
 putchar(x);
+printf("\n");
 return (0);
 }
