@@ -3,6 +3,8 @@ void kiro(void);
 /**
  * main - entry point
  *
+ * kiro - print
+ *
  * Return: equal zero
 */
 void kiro(void)
