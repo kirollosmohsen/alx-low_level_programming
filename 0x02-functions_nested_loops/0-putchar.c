@@ -7,6 +7,7 @@
 int main(void)
 {
 kiro(void);
+return (0);
 }
 void kiro(void)
 {
