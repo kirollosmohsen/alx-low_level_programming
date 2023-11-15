@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-kiro(void);
+kiro();
 return (0);
 }
 void kiro(void)
