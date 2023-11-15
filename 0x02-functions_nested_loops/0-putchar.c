@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-print();
+kiro();
 }
-void print(void)
+void kiro(void)
 {
 printf("_putchar\n");
 }
