@@ -27,6 +27,6 @@ return (NULL);
 m = malloc(sizeof(int) * nmemb);
 if (m == 0)
 return (NULL);
-memset(m, 0, sizeof(int) * nmemb);
+_memset(m, 0, sizeof(int) * nmemb);
 return (m);
 }
