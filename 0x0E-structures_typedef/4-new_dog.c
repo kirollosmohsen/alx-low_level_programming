@@ -13,8 +13,7 @@ length++;
 return (length);
 }
 /**
-*_strcopy - a function that returns
-*@dest with a copy of a string fro
+*_strcopy - a function that returns @dest with a copy of a string fro
 *@src: string to copy
 *@dest: copy string to here
 *Return: @dest
@@ -38,7 +37,7 @@ return (dest);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *dog;
-if (!name age < 0 || !owner)
+if (!name || age < 0 || !owner)
 return (NULL);
 dog = (dog_t *) malloc(sizeof(dog_t));
 if (dog == NULL)
@@ -50,7 +49,7 @@ free(dog);
 return (NULL);
 }
 dog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-if ((dog). owner == NULL)
+if ((*dog). owner == NULL)
 {
 free(dog->name);
 free(dog);
