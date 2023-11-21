@@ -41,7 +41,7 @@ w[n - 1] = NULL;
 i = 0;
 while (str[i])
 {
-if (str[i] != &&(i == 0 || str[i - 1] == ' '))
+if (str[i] != ' '&&(i == 0 || str[i - 1] == ' '))
 {
 for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 ;
