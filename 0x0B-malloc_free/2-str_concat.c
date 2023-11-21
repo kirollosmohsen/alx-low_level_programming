@@ -31,9 +31,8 @@ m = malloc((size1 + size2) *sizeof(char) + 1);
 if (m == 0)
 return (0);
 for (i = 0; i <= size1 + size2; i++)
-}
-if (i < sizel)
 {
+if (i < sizel)
 m[i] = s1[i];
 else
 m[i] = s2[i - size1];
