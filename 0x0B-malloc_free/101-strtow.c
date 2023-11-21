@@ -27,7 +27,7 @@ return (n);
 */
 char **strtow(char *str)
 {
-int i, j, k, 1, n = 0, wc = 0;
+int i, j, k, l, n = 0, wc = 0;
 char **w;
 if (str == NULL || *str == '\0')
 return (NULL);
