@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
-*struct -  token Struct token
+*struct token - Struct token
 *@token: format token
 *@f: The function associated
 */
