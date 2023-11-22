@@ -16,11 +16,11 @@ new_node->n = n;
 new_node->next = NULL;
 if (!idx)
 {
-new_node->next = head;
+new_node->next = *head;
 *head = new_node;
 return (new_node);
 }
-node = head;
+node = *head;
 while (node)
 {
 if (i == idx - 1)
@@ -30,7 +30,7 @@ node->next = new_node;
 return (new_node);
 }
 i++;
-node node->next;
+node = node->next;
 }
 free(new_node);
 return (NULL);
