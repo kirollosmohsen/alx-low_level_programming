@@ -6,7 +6,7 @@
 /**
 *struct -  token Struct token
 *@token: format token
-* @f: The function associated
+*@f: The function associated
 */
 typedef struct token
 {
