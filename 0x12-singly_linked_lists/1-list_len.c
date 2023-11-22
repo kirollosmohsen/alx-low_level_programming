@@ -12,5 +12,5 @@ while (h)
 h = h->next;
 i++;
 }
-return (1);
+return (i);
 }
