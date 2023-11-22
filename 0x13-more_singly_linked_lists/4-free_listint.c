@@ -4,7 +4,7 @@
 *@head: pointer to first node
 *Return: void
 */
-void free listint(listint_t *head)
+void free_listint(listint_t *head)
 {
 listint_t *node;
 while (head)
