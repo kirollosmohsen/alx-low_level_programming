@@ -22,7 +22,7 @@ printf("%s%d", separator, va_arg(ap, int));
 *@separator: the string seprator
 * @ap: argument pointer
 */
-void format float(char *separator, va list ap)
+void format_float(char *separator, va_list ap)
 {
 printf("%s%f", separator, va_arg(ap, double));
 }
