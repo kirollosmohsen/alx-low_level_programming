@@ -11,7 +11,7 @@ if (!s)
 return (0);
 while (*s++)
 i++;
-return (1);
+return (i);
 }
 /**
 *print_list - prints a linked lists
@@ -28,5 +28,5 @@ printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 h = h->next;
 i++;
 }
-return (1);
+return (i);
 }
