@@ -4,9 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-*struct list_s - singly linked list
+* struct list_s - singly linked list
 * @str: string - (malloc'ed string)
-*@len: length of the string
+* @len: length of the string
 * @next: points to the next node
 *
 *Description: singly linked list node structure
@@ -15,7 +15,7 @@ typedef struct list_s
 {
 char *str;
 unsigned int len;
-struct list_s next;
+struct list_s *next;
 } list_t;
 int _putchar(char c);
 int _strlen(char *s);
