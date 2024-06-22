@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
@@ -7,21 +9,25 @@
  */
 int main(void)
 {
-	int n = 980; /* Example value, you can modify this to test different cases */
+	int n;
 
-	printf("Last digit of %d is %d ", n, n % 10);
+	srand(time(0)); /* Seed for generating random numbers */
+	n = rand() - RAND_MAX / 2;
+	/* Generate a random number between -RAND_MAX/2 and RAND_MAX/2 */
+
+	printf("Last digit of %d is %d ", n, abs(n % 10));
 
 	if ((n % 10) > 5)
 	{
 		printf("and is greater than 5\n");
 	}
-	else if ((n % 10) < 5)
+	else if ((n % 10) == 0)
 	{
-		printf("and is less than 5\n");
+		printf("and is 0\n");
 	}
 	else
 	{
-		printf("and is 0\n");
+		printf("and is less than 6 and not 0\n");
 	}
 
 	return (0);
