@@ -9,10 +9,12 @@
  */
 void print_to_98(int n)
 {
+    int i;  // Declare loop variable here
+
     if (n <= 98)
     {
         printf("%d", n);
-        for (int i = n + 1; i <= 98; i++)
+        for (i = n + 1; i <= 98; i++)
         {
             printf(", %d", i);
         }
@@ -20,7 +22,7 @@ void print_to_98(int n)
     else
     {
         printf("%d", n);
-        for (int i = n - 1; i >= 98; i--)
+        for (i = n - 1; i >= 98; i--)
         {
             printf(", %d", i);
         }
