@@ -9,7 +9,7 @@
  */
 void print_to_98(int n)
 {
-    int i;  // Declare loop variable here
+    int i;  /* Declare loop variable here */
 
     if (n <= 98)
     {
