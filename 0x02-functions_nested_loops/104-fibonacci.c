@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-    unsigned long int first = 1, second = 2, next;
-    int count;
+	int count;
+	unsigned long int first = 1, second = 2, next;
 
-    printf("%lu, %lu", first, second);
+	printf("%lu, %lu", first, second);
 
-    for (count = 3; count <= 98; count++)
-    {
-        next = first + second;
-        printf(", %lu", next);
-        first = second;
-        second = next;
-    }
+	for (count = 3; count <= 98; count++)
+	{
+		next = first + second;
+		printf(", %lu", next);
+		first = second;
+		second = next;
+	}
 
-    printf("\n");
+	printf("\n");
 
-    return 0;
+	return (0);
 }
