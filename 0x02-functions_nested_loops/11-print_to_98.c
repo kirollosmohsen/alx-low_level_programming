@@ -1,28 +1,31 @@
-/* 11-print_times_table.c */
 #include "main.h"
 #include <stdio.h>
 
 /**
- * print_times_table - prints the n times table, starting with 0
- * @n: times table to print (0 <= n <= 15)
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: starting number
  */
-void print_times_table(int n)
+void print_to_98(int n)
 {
-int row, column;
-
-if (n >= 0 && n <= 15)
-{
-for (row = 0; row <= n; row++)
-{
-for (column = 0; column <= n; column++)
-{
-int result = row * column;
-if (column == 0)
-printf("%d", result);
-else
-printf(", %d", result);
-}
-printf("\n");
-}
-}
+	if (n <= 98)
+	{
+		for (int i = n; i <= 98; i++)
+		{
+			printf("%d", i);
+			if (i != 98)
+				printf(",");
+			printf(" ");
+		}
+	}
+	else
+	{
+		for (int i = n; i >= 98; i--)
+		{
+			printf("%d", i);
+			if (i != 98)
+				printf(",");
+			printf(" ");
+		}
+	}
+	printf("\n");
 }
