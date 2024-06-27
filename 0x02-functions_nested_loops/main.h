@@ -3,7 +3,7 @@
 
 /* Included Libraries */
 #include <unistd.h>
-
+#include <stdio.h>
 /* Function Prototypes */
 int _putchar(char c);
 void print_alphabet(void);
