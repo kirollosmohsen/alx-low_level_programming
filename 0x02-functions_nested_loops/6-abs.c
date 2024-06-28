@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <math.h>
 /**
 * int _abs - calculate abs 
