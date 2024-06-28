@@ -19,7 +19,7 @@ else if (n < 0)
 printf("-");
 return (-1);
 }
-else (n == 0)
+else
 {
 printf("0");
 return (0);
