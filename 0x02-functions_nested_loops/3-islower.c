@@ -7,6 +7,5 @@
 */ 
 int _islower(int c)
 {
-int x;
-return (islower(x));
+return (islower(c));
 }
