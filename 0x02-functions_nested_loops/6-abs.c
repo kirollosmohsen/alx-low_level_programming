@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 /**
-*_abs - calculate abs
+* _abs - calculate abs of tthe int
 *@x: value
-* return: value rtesultes
+* Return: value rtesultes
 *
 */
 int _abs(int x)
