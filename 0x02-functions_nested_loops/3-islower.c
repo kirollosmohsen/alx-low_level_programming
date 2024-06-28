@@ -8,10 +8,5 @@
 int _islower(int c)
 {
 int x;
-islower(x);
-}
-int main(void)
-{
-int y;
-return (_islower(y));
+return (islower(x));
 }
