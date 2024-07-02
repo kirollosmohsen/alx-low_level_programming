@@ -26,5 +26,5 @@ if (has_started == 1)
 break;
 i++;
 }
-return (num * sign);
+return (num *sign);
 }
