@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-int sum = 0, n;
+int sum = 0;
 char c;
 
 srand(time(NULL));
