@@ -18,11 +18,8 @@ for (x = 48; x < 58; x++)
 {
 for (z = i; z < 58; z++)
 {
-z == (i - 1);
-
 for (y = (x + 1); y < 58; y++)
 {
-y == (x - 1);
 
 putchar(i);
 putchar(x);
