@@ -1,42 +1,31 @@
 #include <stdio.h>
 
-/**
-* main - entry point of the program
-*
-* Return: always 0
-*/
 int main(void)
 {
-int z;
-int i;
-int y;
-int x;
+int num1, num2;
 
-for (i = 48; i < 58; i++)
+for (num1 = 0; num1 <= 99; num1++)
 {
-for (x = 48; x < 58; x++)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
-for (z = i; z < 58; z++)
-{
-for (y = (x); y < 58; y++)
-{
-
-putchar(i);
-putchar(x);
+// Print num1 (first two-digit number)
+putchar(num1 / 10 + '0');
+putchar(num1 % 10 + '0');
 putchar(' ');
-putchar(z);
-putchar(y);
 
-if (!(i == 57 && x == 56 && z == 57 && y == 57))
+// Print num2 (second two-digit number)
+putchar(num2 / 10 + '0');
+putchar(num2 % 10 + '0');
+
+// Check if it's not the last combination
+if (num1 != 98 || num2 != 99)
 {
 putchar(',');
 putchar(' ');
 }
 }
 }
-}
-}
 putchar('\n');
 
-return (0);
+return 0;
 }
