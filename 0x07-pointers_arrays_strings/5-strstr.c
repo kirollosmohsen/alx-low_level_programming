@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h> /* Include for NULL */
+
 /**
 *_strstr - locates a substring
 *@haystack: the string to be searched
@@ -9,6 +11,10 @@
 char *_strstr(char *haystack, char *needle)
 {
 char *h, *n;
+if (*needle == '\0')
+{
+return (haystack);
+}
 while (*haystack != '\0')
 {
 h = haystack;
