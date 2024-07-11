@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_rev - function to print even
+ * puts2 - function to print even
  * @s: char that inserted 
  */
-void print_rev(char *s)
+void puts2(char *s)
 {
 long int unsigned i = 0;
 char *temp = s;
