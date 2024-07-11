@@ -8,10 +8,13 @@
 void puts2(char *s)
 {
 unsigned long int i = 0;
-for (i = 0; i <= (strlen(s) - 1); i += 2)
+while (s[i] != '\0')
+{
+if (s[i] % 2 == 0)
 {
 putchar(s[i]);
 }
+i++;
 putchar('\n');
 }
 
