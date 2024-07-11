@@ -17,4 +17,4 @@ putchar(s[i]);
 i++;
 putchar('\n');
 }
-
+}
