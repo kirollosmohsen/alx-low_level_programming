@@ -8,11 +8,8 @@
 void puts2(char *s)
 {
 unsigned long int i = 0;
-char *temp = s;
 for (i = 0; i <= (strlen(s) - 1); i += 2)
-{
-putchar(*temp);
-temp += 2;
+putchar(s[i]);
 }
 putchar('\n');
 }
