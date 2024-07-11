@@ -15,6 +15,6 @@ if (s[i] % 2 == 0)
 putchar(s[i]);
 }
 i++;
-putchar('\n');
 }
+putchar('\n');
 }
