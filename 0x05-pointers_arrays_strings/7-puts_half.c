@@ -21,7 +21,11 @@ temp++;
 else
 {
 temp += ((strlen(str) - 1) / 2);
+for (i = ((strlen(str) - 1) / 2); i < (strlen(str)); i++)
+{
 putchar(*temp);
+temp++;
+}
 }
 putchar('\n');
 }
