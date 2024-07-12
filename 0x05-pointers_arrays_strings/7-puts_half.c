@@ -12,7 +12,7 @@ char *temp = str;
 if ((strlen(str) % 2) == 0)
 {
 temp += (strlen(str) / 2);
-for (i = (strlen(str) / 2); i <= (strlen(str)); i++)
+for (i = (strlen(str) / 2); i < (strlen(str)); i++)
 {
 putchar(*temp);
 temp++;
