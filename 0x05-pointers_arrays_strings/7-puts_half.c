@@ -9,8 +9,6 @@ void puts_half(char *str)
 {
 unsigned long int i = 0;
 char *temp = str;
-while (str[i] != '\0')
-{
 if ((strlen(str) % 2) == 0)
 {
 temp += (strlen(str) / 2);
@@ -26,6 +24,4 @@ temp += ((strlen(str) - 1) / 2);
 putchar(*temp);
 }
 putchar('\n');
-i++;
-}
 }
