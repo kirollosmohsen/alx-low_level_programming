@@ -21,11 +21,11 @@ m1 = (char *)malloc(z1 * sizeof(char));
 m2 = (char *)malloc(z2 * sizeof(char));
 for (x = 0; x < z1; x++)
 {
-	m1[i] = s1[i];
+	m1[x] = s1[x];
 }
 for (x = 0; x < z1; x++)
 {
-        m2[i] = s2[i];
+        m2[x] = s2[x];
 }
 return (m1);
 return (m2);
