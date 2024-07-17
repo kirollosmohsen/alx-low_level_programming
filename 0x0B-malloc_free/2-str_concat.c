@@ -7,8 +7,8 @@ char *str_concat(char *s1, char *s2)
 unsigned long int x = 0;
 char *m1;
 char *m2;
-unsigned long int z1 = (strlen(s1) + 1) ;
-unsigned long int z2 = (strlen(s2) + 1);
+unsigned long int z1 = (strlen(s1));
+unsigned long int z2 = (strlen(s2));
 if (s1 == NULL)
 {
     return (NULL);
