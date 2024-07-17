@@ -27,7 +27,5 @@ for (x = 0; x < z2; x++)
 {
         m2[x] = s2[x];
 }
-return (m1);
-return (m2);
-
+return (m1,m2);
 } 
