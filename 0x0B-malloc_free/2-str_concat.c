@@ -23,7 +23,7 @@ for (x = 0; x < z1; x++)
 {
 	m1[x] = s1[x];
 }
-for (x = 0; x < z1; x++)
+for (x = 0; x < z2; x++)
 {
         m2[x] = s2[x];
 }
