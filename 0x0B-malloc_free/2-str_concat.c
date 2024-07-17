@@ -27,9 +27,9 @@ for (x = 0; x < z1; x++)
 {
         m1[x] = s1[x];
 }
-for (int i = z1; i < z2 ; i++)
+for ( x = z1; x < z2 ; x++)
 {
-        m1[i] = s2[i];
+        m1[x] = s2[x];
 }
 return (m1);
 }
