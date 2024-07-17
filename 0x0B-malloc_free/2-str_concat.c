@@ -8,7 +8,7 @@ unsigned long int x = 0;
 char *m1;
 unsigned long int z1 = (strlen(s1));
 unsigned long int z2 = (strlen(s2));
-unsigned long int sum = (strlen(s1)+strlen(s2));
+unsigned long int sum = (strlen(s1)+strlen(s2)+1);
 
 if (s1 == NULL)
 {
