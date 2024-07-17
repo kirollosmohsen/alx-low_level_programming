@@ -7,7 +7,9 @@
  * @s2: The second string.
  *
  * Return: A pointer to the newly allocated space in memory,
- *         which contains the contents of s1 followed by s2 and null-terminated.
+ *
+ *         which contains the contents of s1 followed by s
+ *         2 and null-terminated.
  *         Returns NULL on failure.
  */
 char *str_concat(char *s1, char *s2)
