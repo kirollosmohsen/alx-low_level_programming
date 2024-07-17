@@ -13,7 +13,7 @@ if (x == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < strlen(str); i++)
+for (i = 0; i < (strlen(str) + 1); i++)
 {
 x[i] = str[i];
 }
