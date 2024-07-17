@@ -7,7 +7,7 @@
  */
 char *_strdup(char *str)
 {
-int i;
+unsigned long int i;
 char *x = (char *) malloc(strlen(str) * sizeof(char));
 if (str == NULL)
 {
@@ -17,5 +17,5 @@ for (i = 0; i < strlen(str); i++)
 {
 x[i] = str[i];
 }
-return (printf("%s", x));
+return (x);
 }
