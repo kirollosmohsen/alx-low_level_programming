@@ -16,7 +16,7 @@ if (s2 == NULL)
 {
     return (NULL);
 }
-m1 = (char *)malloc(z1 * sizeof(char));
+m1 = (char *)malloc((z1 + z2) * sizeof(char));
 for (x = 0; x < z1; x++)
 {
 	m1[x] = s1[x];
