@@ -4,11 +4,10 @@
 #include <string.h>
 char *str_concat(char *s1, char *s2)
 {
-int x = 0;
 char *m1;
 char *m2;
-int z1 = strlen(s1);
-int z2 = strlen(s2);
+unsigned long int z1 = strlen(s1);
+unsigned long int z2 = strlen(s2);
 if (s1 == NULL)
 {
     return (NULL);
