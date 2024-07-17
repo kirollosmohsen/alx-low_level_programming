@@ -9,7 +9,6 @@ char *m1;
 unsigned long int z1 = (strlen(s1));
 unsigned long int z2 = (strlen(s2));
 unsigned long int sum = (strlen(s1)+strlen(s2));
-printf("%d------%d-------%d\n",sum,z1,z2);
 
 if (s1 == NULL)
 {
