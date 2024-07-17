@@ -13,7 +13,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-if (x == '\0')
+if (x == NULL)
 {
 return (NULL);
 }
