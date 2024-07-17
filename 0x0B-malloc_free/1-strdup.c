@@ -13,6 +13,10 @@ if (str == NULL)
 {
 return (NULL);
 }
+if (x == '\0')
+{
+return (NULL);
+}
 for (i = 0; i < (strlen(str) + 1); i++)
 {
 x[i] = str[i];
