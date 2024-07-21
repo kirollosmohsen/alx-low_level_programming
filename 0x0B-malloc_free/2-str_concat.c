@@ -9,9 +9,6 @@
 char *str_concat(char *s1, char *s2)
 {
 unsigned long int i;
-unsigned long int x1 = strlen(s1);
-unsigned long int x2 = strlen(s2);
-unsigned long int x3 = strlen(s1) + strlen(s2);
 char *ptr;
 if (s1 == NULL)
 {
@@ -21,20 +18,20 @@ if (s2 == NULL)
 {
 return (NULL);
 }
-ptr = (char *)malloc(x3 * sizeof(char));
+ptr = (char *)malloc((strlen(s1) + strlen(s2)) * sizeof(char) + 1);
 if (ptr == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < x3 + 1; i++)
+for (i = 0; i < (strlen(s1) + strlen(s2)) + 1; i++)
 {
-if (i < x1)
+if (i < strlen(s1))
 {
 ptr[i] = s1[i];
 }
 else
 {
-ptr[i] = s2[i - x1];
+ptr[i] = s2[i - strlen(s1)];
 }
 }
 return (ptr);
