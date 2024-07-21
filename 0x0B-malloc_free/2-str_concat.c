@@ -12,11 +12,11 @@ unsigned long int i;
 char *ptr;
 if (s1 == NULL)
 {
-return (NULL);
+s1 = "";
 }
 if (s2 == NULL)
 {
-return (NULL);
+s2 = "";
 }
 ptr = (char *)malloc((strlen(s1) + strlen(s2)) * sizeof(char) + 1);
 if (ptr == NULL)
