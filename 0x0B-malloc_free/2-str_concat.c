@@ -10,11 +10,7 @@ char *str_concat(char *s1, char *s2)
 {
 unsigned long int i;
 char *ptr;
-if (s1 == NULL)
-{
-return (NULL);
-}
-if (s2 == NULL)
+if (s1 || s2 == NULL)
 {
 return (NULL);
 }
