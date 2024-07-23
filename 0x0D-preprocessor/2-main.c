@@ -5,5 +5,5 @@
 int main(void)
 {
 	printf("%s\n", FILE_NAME);
-	return 0;
+	return (0);
 }
