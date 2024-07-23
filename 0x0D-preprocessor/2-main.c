@@ -11,7 +11,6 @@
  */
 int main(void)
 {
-intf("%s\n", FILE_NAME);
+printf("%s\n", FILE_NAME);
 return (0);
 }
-
