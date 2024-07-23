@@ -5,7 +5,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the name of the current source file and returns 0 on success.
+ * Description: Prints the name of the current
+ * source file and returns 0 on success.
  * Return: Always 0 (success)
  */
 int main(void)
