@@ -18,7 +18,7 @@ return (1);
 }
 else
 {
-sum = + (n * factorial(n - 1));
+sum = +(n * factorial(n - 1));
 }
 return (sum);
 }
