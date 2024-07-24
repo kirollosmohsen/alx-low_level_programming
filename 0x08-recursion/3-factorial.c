@@ -19,10 +19,7 @@ return (1);
 }
 else 
 {
-for (i = 1; i <= n; i++)
-{
-sum =+ (sum * i); 
-}
+sum =+ (n * factorial(n - 1); 
 }
 return sum;
 }
