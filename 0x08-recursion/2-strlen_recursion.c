@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include  <string.h>
 /**
- *
- * int _strlen_recursion(char *s) - jkkjdkkdjjddj
+ *_strlen_recursion - jkkjdkkdjjddj
  * @s: kjljdkljldjldk
+ * Return: kjkkdjkfd
  */
 int _strlen_recursion(char *s)
 {
