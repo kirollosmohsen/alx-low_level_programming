@@ -17,7 +17,7 @@ if (str == NULL)
 return (NULL);
 }
 x = strlen(str);
-ptr = (char *)malloc(x * sizeof(char) + 1);
+ptr = (char *)malloc((x * sizeof(char)) + 1);
 if (ptr == NULL)
 {
 return (NULL);
