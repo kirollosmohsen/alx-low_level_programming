@@ -16,7 +16,7 @@ if (str == NULL)
 return (NULL);
 }
 ptr = (char *)malloc(x * sizeof(char) + 1);
-else if (ptr == NULL)
+if (ptr == NULL)
 {
 return (NULL);
 }
