@@ -16,7 +16,7 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-else if (ptr == 0)
+else if (ptr == "\0")
 {
 return (NULL);
 }
