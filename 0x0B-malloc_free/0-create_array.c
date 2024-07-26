@@ -16,10 +16,6 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-else if (ptr == "")
-{
-return (NULL);
-}
 else
 {
 for (i = 0; i < size; i++)
