@@ -16,6 +16,10 @@ if (str == NULL)
 {
 return (NULL);
 }
+else if (str == "")
+{
+return (NULL);
+}
 else if (ptr == NULL)
 {
 return (NULL);
