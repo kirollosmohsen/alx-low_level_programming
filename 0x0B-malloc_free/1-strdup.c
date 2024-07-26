@@ -11,12 +11,8 @@ char *_strdup(char *str)
 {
 char *ptr;
 long int x = strlen(str);
-ptr = (char *)malloc(x * sizeof(char));
+ptr = (char *)malloc(x * sizeof(char) + 1);
 if (str == NULL)
-{
-return (NULL);
-}
-else if (str == "")
 {
 return (NULL);
 }
