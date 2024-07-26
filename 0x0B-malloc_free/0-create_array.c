@@ -6,10 +6,10 @@
  * @size: dhdhdkddss
  * @c: khskhkshkshsh
  * Return: always to zero
- */
+*/
 char *create_array(unsigned int size, char c)
 {
-unsigned long int = 0;
+unsigned long int i = 0;
 char *ptr;
 ptr = (char *)malloc(size * sizeof(char));
 if (ptr == NULL)
