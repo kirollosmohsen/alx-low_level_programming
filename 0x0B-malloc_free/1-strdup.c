@@ -9,9 +9,9 @@
  */
 char *_strdup(char *str)
 {
-char *ptr ;
+char *ptr;
 long int x = strlen(str);
-ptr = (char*)malloc(x * sizeof(char));
+ptr = (char *)malloc(x * sizeof(char));
 if (str == NULL)
 {
 return (NULL);
@@ -23,7 +23,6 @@ return (NULL);
 else
 {
 ptr = strdup(str);
-free(str);
 }
 return (ptr);
 }
