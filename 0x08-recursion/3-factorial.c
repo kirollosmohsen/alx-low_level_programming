@@ -1,24 +1,20 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * factorial - jhddddjdjd
- * @n: oidiudiuidu
- * Return: kjdkjdkd
+ *  * factorial - returns the factorial of a number
+ *   * @n: number to return the factorial from
+ *    *
+ *     * Return: factorial of n
  */
 int factorial(int n)
 {
-long int sum = 1;
-if (n < 0)
-{
-return (-1);
-}
-else if (n == 0)
-{
-return (1);
-}
-else
-{
-sum = +(n * factorial(n - 1));
-}
-return (sum);
+	if (n < 0)
+	{
+		return (-1);
+	}
+	if (n == 0)
+	{
+		return (1);
+	}
+		return (n * factorial(n - 1));
 }
