@@ -1,46 +1,29 @@
 #include "holberton.h"
+
 /**
- * print_number - print an int numbers.
- * @n: number tested
- * Return: Always 0.
+ * rot13 - caesers cipher
+ * @str: pointer to an array of words
+ *
+ * Return: s
  */
-void print_number(int n)
+
+char *rot13(char *str)
 {
-	int i, j, digit, digits, power;
-	unsigned int temp, numchar, number;
+	int i, j;
+	char input[80] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char output[80] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	digit = 0;
-	if (n < 0)
+	for (i = 0; str[i] != '\0'; ++i)
 	{
-		_putchar('-');
-		temp = -n;
-	}
-	else
-	{
-		temp = n;
-	}
+		for (j = 0; input[j] != '\0'; j++)
+		{
+			if (str[i] == input[j])
+			{
+				str[i] = output[j];
+				break;
+			}
+		}
 
-	number = temp;
-
-	while (number >= 10)
-	{
-		number = number / 10;
-		digit++;
 	}
-	digits = digit + 1;
-	power = 1;
-	i = 1;
-
-	while (i < digits)
-	{
-		power = power * 10;
-		i++;
-	}
-	j = power;
-	while (j >= 1)
-	{
-		numchar = (temp / j) % 10;
-		_putchar(numchar + '0');
-		j = j / 10;
-	}
+	return (str);
 }
